@@ -6,12 +6,10 @@
 }
 
 
-.bor {
-    border-right: 2px solid black;
 
-}
 .form-container {
     background-color: whitesmoke;
+    padding-bottom: 4rem;
 }
 
 form {
@@ -68,7 +66,7 @@ input[type="date"] {
 }
 .title {
     display: flex;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
     padding: 1rem;
 }
 textarea {
@@ -76,7 +74,7 @@ textarea {
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
-#position-tasks {
+#positiontasks {
     width: 100%;
     height: 4.5rem;
     padding-left: 0.7rem;
