@@ -1,0 +1,32 @@
+
+## Profile section
+# fullname,
+# email, 
+# phone, 
+# bio, 
+# address
+
+## Expreience section
+company name,
+position title,
+description of main tasks of job,
+date of job
+
+## Skills Section
+certificates,
+skills
+
+
+## Education Section
+school name,
+title of study,
+date of study, 
+
+
+
+
+
+Req. 1 swtich on/off in order to see preview cv
+Req. 2 cv can be downloaded
+Req. 4 editable/deletable sections
+Req. 5 authentication 

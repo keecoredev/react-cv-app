@@ -1,0 +1,115 @@
+:root {
+    --submit-button-bg:#FF8C00;
+    --submit-button-color:white;
+    --sub-hover-bg: rgb(193, 127, 4);
+    --sub-hover-color:white;
+}
+
+
+.bor {
+    border-right: 2px solid black;
+
+}
+.form-container {
+    background-color: whitesmoke;
+}
+
+form {
+    background-color: whitesmoke;
+    margin: 1rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+    
+}
+input[type="text"] {
+    width: 100%;
+    border: 0;
+    border: 1px solid black;
+    /* background-color: transparent; */
+    height: 3rem;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    margin-top: 0.7rem;
+    
+}
+input[type="submit"]{
+    margin-top: 10px;
+}
+input[type="date"] {
+    margin-top: 2rem;
+}
+.form-div {
+    margin-right: 1rem;
+}
+
+.profile-img {
+    margin-top: 2.5rem;
+    padding-right: 1rem;
+    width: 15rem;
+    height: 15rem;
+    border: 0px;
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
+#description {
+    width: 100%;
+    height: 6rem;
+    padding-left: 0.7rem;
+    font-size: 0.7rem;
+}
+.description-div {
+    margin-top: 1rem;
+}
+.title {
+    display: flex;
+    border-bottom: 2px solid black;
+    padding: 1rem;
+}
+textarea {
+    margin-top: 0.5rem;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#position-tasks {
+    width: 100%;
+    height: 4.5rem;
+    padding-left: 0.7rem;
+    font-size: 0.7rem;
+}
+
+ul {
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+li {
+    display: table-cell;
+}
+
+.btn-orange {
+    background-color: var(--submit-button-bg);
+    color: var(--submit-button-color);
+    margin-right: 1rem;
+}
+.btn-orange:hover {
+    background-color: var(--sub-hover-bg);
+    color: var(--sub-hover-color);
+}
+
+.title-buttons {
+    margin-left: auto;
+}
+.add-button {
+    margin-right: 1rem;
+    border-radius: 50%;
+    
+}
+.delete-button {
+    border-radius: 50%;
+}

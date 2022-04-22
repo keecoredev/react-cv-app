@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+cv-app-requirements
 
 # testing
 /coverage

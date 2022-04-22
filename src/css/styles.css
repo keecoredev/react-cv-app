@@ -1,0 +1,8 @@
+:root {
+    --head-font-type:'Montserrat', sans-serif;
+}
+
+body {
+    background-color:lightgrey;
+    font-family: var(--head-font-type);
+}
