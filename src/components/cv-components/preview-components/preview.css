@@ -1,0 +1,88 @@
+
+.preview-container {
+    display: block;
+    margin-top: 4rem;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-left: 0%;
+    border-right:2px solid black;
+}
+.preview-container-r {
+    display: block;
+    margin-top: 4rem;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-right: 5rem;
+
+}
+.personal-side {
+    display: block;
+    height: 100%;
+    margin-left: 5rem;
+    
+}
+.profile-img {
+    margin-top: 2.5rem;
+    padding-right: 1rem;
+    width: 15rem;
+    height: 15rem;
+    border: 0px;
+    cursor:auto;
+}
+.profileInfo-container {
+    margin-right: 1.5rem;
+    text-align: end;
+}
+
+.subtit {
+    margin-top: 1rem;
+    font-size: 12px;
+    color:gray
+}
+.info {
+    font-size: 0.8rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+p {
+    margin: 0%;
+    padding: 0%;
+}
+
+.nameCV {
+    margin-top: 2rem;
+    padding-left: 2rem;
+    height: 4rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.experienceCV {
+    padding-left: 2rem;
+}
+.educationCV {
+
+    padding-left: 2rem;
+}
+.skillsCV {
+
+    padding-left: 2rem;
+}
+.sec-title {
+    border-bottom:2px solid black;
+    color: gray;
+    font-size: 1.4rem;
+}
+.exp-date {
+    font-size: 12px;
+    color:gray
+}
+
+.list-comp {
+    display: block;
+    margin-top: 1rem;
+    text-align: start;
+    padding-left: 0%;
+    margin-left: 0%;
+}

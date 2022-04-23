@@ -4,6 +4,8 @@ import { Personal } from "./form-components/Personal";
 import { Experience } from "./form-components/Experience";
 import { Education } from "./form-components/Education";
 import { Skills } from "./form-components/Skills";
+import { PreviewComp } from "./preview-components/PreviewComponent";
+
 
 class FormComp extends React.Component {
 
@@ -11,11 +13,6 @@ class FormComp extends React.Component {
         super(props);
         this.state = {
             
-
-
-
-
-
             // toggle
             isToggeledExperience:false,
             isToggeledEducation:false,
@@ -39,14 +36,36 @@ class FormComp extends React.Component {
             isToggeledSkills: !this.state.isToggeledSkills
         })
     }
-
-
+    // profilepic={this.state.profilepic}
+    // fullname={this.state.fullname}
+    // email={this.state.email}
+    // address={this.state.address}
+    // linkedn={this.state.linkedn}
+    // github={this.state.github}
+    // description={this.state.description}
+    // //experience heap
+    // experienceHeap={this.state.experienceHeap}
+    // //education heap
+    // educationHeap={this.state.educationHeap}
+    // skillsHeap={this.state.skillsHeap}
     render(){
         return(
             <div className="form-container">
                 {this.props.isPreview
                     ? <span>
-                        Previewed
+                        <PreviewComp 
+                            profilepic={this.props.profilepic}
+                            fullname={this.props.fullname}
+                            email={this.props.email}
+                            address={this.props.address}
+                            linkedn={this.props.linkedn}
+                            github={this.props.github}
+                            description={this.props.description}
+                            experienceHeap={this.props.experienceHeap}
+                            educationHeap={this.props.educationHeap}
+                            skillsHeap={this.props.skillsHeap}
+
+                        />
                     </span>
                     : <span>
                         <Personal 

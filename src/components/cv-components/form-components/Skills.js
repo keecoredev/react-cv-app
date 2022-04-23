@@ -33,7 +33,7 @@ class Skills extends React.Component {
                                         <ul>
                                             
                                             {this.props.skillsHeap.map((skill) => {
-                                                return <div style={{display:"inline-block"}}> <li key={skill.id}>{skill.skills} <button>x</button></li> </div>
+                                                return <li style={{display:"inline-block"}} key={skill.id}>{skill.skills} <button>x</button></li>
                                             })}
                                         </ul>
                                     

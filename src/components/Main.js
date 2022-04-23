@@ -82,6 +82,7 @@ class Main extends React.Component {
                 positiontasks:this.state.positiontasks,
                 exstartdate:this.state.exstartdate,
                 exenddate:this.state.exenddate,
+                id:uniqid()
             })
         })
     }
@@ -96,6 +97,7 @@ class Main extends React.Component {
                 grade:this.state.grade,
                 studstartdate:this.state.studstartdate,
                 studenddate:this.state.studenddate,
+                id:uniqid()
             })
         })
     }
@@ -133,16 +135,7 @@ class Main extends React.Component {
     }
 
     render(){
-        // console.log(this.state.experienceHeap)
-        // console.log(this.state.educationHeap)
-        // console.log(this.state.skillsHeap)
-        // console.log(this.state.profilepic)
-        // console.log(this.state.fullname)
-        // console.log(this.state.email)
-        // console.log(this.state.address)
-        // console.log(this.state.linkedn)
-        // console.log(this.state.github)
-        // console.log(this.state.description)
+
         return(
                 <Container>
                     <Row>
@@ -155,6 +148,19 @@ class Main extends React.Component {
                             skillsHeap={this.state.skillsHeap}
                             onChangeHandle={this.onChangeHandle}
                             personalOnSaveHdanler={this.personalOnSaveHdanler}
+                            //personal
+                            profilepic={this.state.profilepic}
+                            fullname={this.state.fullname}
+                            email={this.state.email}
+                            address={this.state.address}
+                            linkedn={this.state.linkedn}
+                            github={this.state.github}
+                            description={this.state.description}
+                            //experience heap
+                            experienceHeap={this.state.experienceHeap}
+                            //education heap
+                            educationHeap={this.state.educationHeap}
+
                         />
                         </Col>
 
